@@ -6,7 +6,7 @@
 	},
 	"item": [
 		{
-			"name": "http://142.93.118.128:7052/products",
+			"name": "http://142.93.118.128:7053/products",
 			"request": {
 				"method": "POST",
 				"header": [
@@ -27,12 +27,12 @@
 					"raw": "{\n\t\"keyword\" : \"jeans\",\n\t\"filter\":[\n\t\t{\"brand\":\"Roadster\"},\n\t\t{\"gender\":\"\"},\n\t\t{\"min\":\"0\"},\n\t\t{\"max\":\"60000\"},\n\t\t{\"year\" : [\"\"]}\n\t]\n}\n"
 				},
 				"url": {
-					"raw": "http://142.93.118.128:7052/products",
+					"raw": "http://142.93.118.128:7053/products",
 					"protocol": "http",
 					"host": [
 						"142.93.118.128"
 					],
-					"port": "7052",
+					"port": "7053",
 					"path": [
 						"products"
 					],
@@ -64,7 +64,7 @@
 			"response": []
 		},
 		{
-			"name": "http://142.93.118.128:7052/filters",
+			"name": "http://142.93.118.128:7053/filters",
 			"request": {
 				"method": "POST",
 				"header": [
@@ -85,12 +85,12 @@
 					"raw": "{\n\t\"keyword\" : \"jeans\",\n\t\"filter\":[\n\t\t{\"brand\":\"Roadster\"},\n\t\t{\"gender\":\"\"},\n\t\t{\"min\":\"0\"},\n\t\t{\"max\":\"60000\"},\n\t\t{\"year\" : [\"\"]}\n\t]\n}\n"
 				},
 				"url": {
-					"raw": "http://142.93.118.128:7052/filters",
+					"raw": "http://142.93.118.128:7053/filters",
 					"protocol": "http",
 					"host": [
 						"142.93.118.128"
 					],
-					"port": "7052",
+					"port": "7053",
 					"path": [
 						"filters"
 					],
