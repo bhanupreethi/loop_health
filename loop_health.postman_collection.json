@@ -6,7 +6,7 @@
 	},
 	"item": [
 		{
-			"name": "http://localhost:7052/products",
+			"name": "http://142.93.118.128:7052/products",
 			"request": {
 				"method": "POST",
 				"header": [
@@ -27,10 +27,10 @@
 					"raw": "{\n\t\"keyword\" : \"jeans\",\n\t\"filter\":[\n\t\t{\"brand\":\"Roadster\"},\n\t\t{\"gender\":\"\"},\n\t\t{\"min\":\"0\"},\n\t\t{\"max\":\"60000\"},\n\t\t{\"year\" : [\"\"]}\n\t]\n}\n"
 				},
 				"url": {
-					"raw": "http://localhost:7052/products",
+					"raw": "http://142.93.118.128:7052/products",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"142.93.118.128"
 					],
 					"port": "7052",
 					"path": [
@@ -64,7 +64,7 @@
 			"response": []
 		},
 		{
-			"name": "http://localhost:7052/filters",
+			"name": "http://142.93.118.128:7052/filters",
 			"request": {
 				"method": "POST",
 				"header": [
@@ -85,10 +85,10 @@
 					"raw": "{\n\t\"keyword\" : \"jeans\",\n\t\"filter\":[\n\t\t{\"brand\":\"Roadster\"},\n\t\t{\"gender\":\"\"},\n\t\t{\"min\":\"0\"},\n\t\t{\"max\":\"60000\"},\n\t\t{\"year\" : [\"\"]}\n\t]\n}\n"
 				},
 				"url": {
-					"raw": "http://localhost:7052/filters",
+					"raw": "http://142.93.118.128:7052/filters",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"142.93.118.128"
 					],
 					"port": "7052",
 					"path": [
@@ -122,7 +122,7 @@
 			"response": []
 		},
 		{
-			"name": "http://localhost:7051/filterProducts",
+			"name": "http://142.93.118.128:7051/filterProducts",
 			"request": {
 				"method": "POST",
 				"header": [
@@ -143,10 +143,10 @@
 					"raw": "{\n\t\"keyword\" : \"jeans\",\n\t\"filter\":[\n\t\t{\"brand\":\"Roadster\"},\n\t\t{\"gender\":\"\"},\n\t\t{\"min\":\"0\"},\n\t\t{\"max\":\"60000\"},\n\t\t{\"year\" : [\"\"]}\n\t]\n}\n"
 				},
 				"url": {
-					"raw": "http://localhost:7051/filterProducts",
+					"raw": "http://142.93.118.128:7051/filterProducts",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"142.93.118.128"
 					],
 					"port": "7051",
 					"path": [
@@ -180,7 +180,7 @@
 			"response": []
 		},
 		{
-			"name": "http://localhost:7051/searchProduct",
+			"name": "http://142.93.118.128:7051/searchProduct",
 			"request": {
 				"method": "POST",
 				"header": [
@@ -201,10 +201,10 @@
 					"raw": "{\n\t\"search\" : \"Onesize\"\n}\n"
 				},
 				"url": {
-					"raw": "http://localhost:7051/searchProduct",
+					"raw": "http://142.93.118.128:7051/searchProduct",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"142.93.118.128"
 					],
 					"port": "7051",
 					"path": [
