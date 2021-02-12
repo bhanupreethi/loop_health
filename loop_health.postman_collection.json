@@ -1,0 +1,241 @@
+{
+	"info": {
+		"_postman_id": "cc8cf07d-eaca-4301-8d40-48e884200d2e",
+		"name": "loop_health",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:7052/products",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "name",
+						"value": "kalyan",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"keyword\" : \"jeans\",\n\t\"filter\":[\n\t\t{\"brand\":\"Roadster\"},\n\t\t{\"gender\":\"\"},\n\t\t{\"min\":\"0\"},\n\t\t{\"max\":\"60000\"},\n\t\t{\"year\" : [\"\"]}\n\t]\n}\n"
+				},
+				"url": {
+					"raw": "http://localhost:7052/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7052",
+					"path": [
+						"products"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "kalyan",
+							"disabled": true
+						},
+						{
+							"key": "email",
+							"value": "kalyan@g.c",
+							"disabled": true
+						},
+						{
+							"key": "password",
+							"value": "kalyan",
+							"disabled": true
+						},
+						{
+							"key": "passwordConf",
+							"value": "kalyan",
+							"disabled": true
+						}
+					]
+				},
+				"description": "Get list of products"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:7052/filters",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "name",
+						"value": "kalyan",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"keyword\" : \"jeans\",\n\t\"filter\":[\n\t\t{\"brand\":\"Roadster\"},\n\t\t{\"gender\":\"\"},\n\t\t{\"min\":\"0\"},\n\t\t{\"max\":\"60000\"},\n\t\t{\"year\" : [\"\"]}\n\t]\n}\n"
+				},
+				"url": {
+					"raw": "http://localhost:7052/filters",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7052",
+					"path": [
+						"filters"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "kalyan",
+							"disabled": true
+						},
+						{
+							"key": "email",
+							"value": "kalyan@g.c",
+							"disabled": true
+						},
+						{
+							"key": "password",
+							"value": "kalyan",
+							"disabled": true
+						},
+						{
+							"key": "passwordConf",
+							"value": "kalyan",
+							"disabled": true
+						}
+					]
+				},
+				"description": "Get list of filters"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:7051/filterProducts",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "name",
+						"value": "kalyan",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"keyword\" : \"jeans\",\n\t\"filter\":[\n\t\t{\"brand\":\"Roadster\"},\n\t\t{\"gender\":\"\"},\n\t\t{\"min\":\"0\"},\n\t\t{\"max\":\"60000\"},\n\t\t{\"year\" : [\"\"]}\n\t]\n}\n"
+				},
+				"url": {
+					"raw": "http://localhost:7051/filterProducts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7051",
+					"path": [
+						"filterProducts"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "kalyan",
+							"disabled": true
+						},
+						{
+							"key": "email",
+							"value": "kalyan@g.c",
+							"disabled": true
+						},
+						{
+							"key": "password",
+							"value": "kalyan",
+							"disabled": true
+						},
+						{
+							"key": "passwordConf",
+							"value": "kalyan",
+							"disabled": true
+						}
+					]
+				},
+				"description": "Get list of products applying filters"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:7051/searchProduct",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "name",
+						"value": "kalyan",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"search\" : \"Onesize\"\n}\n"
+				},
+				"url": {
+					"raw": "http://localhost:7051/searchProduct",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7051",
+					"path": [
+						"searchProduct"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "kalyan",
+							"disabled": true
+						},
+						{
+							"key": "email",
+							"value": "kalyan@g.c",
+							"disabled": true
+						},
+						{
+							"key": "password",
+							"value": "kalyan",
+							"disabled": true
+						},
+						{
+							"key": "passwordConf",
+							"value": "kalyan",
+							"disabled": true
+						}
+					]
+				},
+				"description": "Get list of products based on auto search"
+			},
+			"response": []
+		}
+	]
+}
