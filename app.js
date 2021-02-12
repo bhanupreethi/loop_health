@@ -104,7 +104,7 @@ app.post('/filterProducts',(req,res)=>{
                let results1 = JSON.parse(JSON.stringify(results))
                results1 = results1[0].products.filter((data)=>{
                         
-                        // console.log('gender', data.gender,gender);
+
                     
                         if((data.gender == gender || gender == "") && 
                             (data.brand == brand || brand == '')
@@ -134,13 +134,4 @@ app.listen('7052',(error,data)=>{
 })
 
 
-// {
-// 	"keyword" : "watch",
-// 	"filter":[
-// 		{"brand":""},
-// 		{"gender":""},
-// 		{"min":"0"},
-// 		{"max":"60000"},
-// 		{"year" : [""]}
-// 	]
-// }
+ 
