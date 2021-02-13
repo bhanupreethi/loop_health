@@ -7,6 +7,8 @@ It has mainly four API's to show the cataloge based on the user selection.
 All the four API's are given in the postman collection file. It is also deployed in the digitalocean droplet.
 IP : 142.93.118.128:7053
 
+Code written in  ExpressJS,Mongo DB.
+
 JSON collection file link given below.
 https://demo7242716.mockable.io/products
 
